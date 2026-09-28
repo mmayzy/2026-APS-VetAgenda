@@ -1,20 +1,15 @@
-# Nome do Sistema: o que ele faz, em uma frase
-
-> **Antes de tudo.** Este é o modelo do Projeto Integrador de Análise e Projeto de Sistemas. Se você está lendo isto no seu próprio repositório, deu certo. Troque o título acima pelo nome do seu sistema e por uma frase que diga o que ele faz, preencha a autoria e o cliente e apague este aviso.
+# VetAgenda: o que ele faz, em uma frase
 
 Projeto Integrador de Análise e Projeto de Sistemas, 2026.
 IFPR, Centro de Referência Ponta Grossa. Técnico em Informática Integrado ao Ensino Médio.
 
-**Autoria:** _seu nome, como aparece no AVA_
+**Autoria:** Mayara Mierzva
 
-**Cliente:** _o papel do cliente e a relação dele com você, no máximo com o primeiro nome. Por exemplo, "Dona Rosa, minha avó, que faz marmita por encomenda"._
+**Cliente:** Clarice, secretária da clínica veterinária, que realiza os agendamentos.
 
 ## Apresentação do projeto
 
-<!-- Três a cinco frases para quem nunca ouviu falar do seu sistema. Qual é o problema, para quem, e o que o sistema faz a respeito.
-     Escreva depois de terminar a 4.1. É um resumo dela, com as suas palavras. -->
-
-_Escreva aqui a apresentação do projeto._
+O VetAgenda foi criado para uma clínica veterinária que organiza seus horários por WhatsApp e agenda de papel. Esse método pode causar conflitos de horário e dificultar a consulta dos atendimentos do dia. O sistema centraliza os dados de tutores, animais, veterinários e consultas, facilitando a organização da agenda. A secretária poderá realizar e consultar os agendamentos, enquanto os veterinários poderão acompanhar seus horários.
 
 ## Documento do projeto
 
@@ -22,10 +17,10 @@ A numeração é a do modelo de trabalho do IFPR, a mesma dos trabalhos de Proje
 
 | Seção | Arquivo | Situação |
 |---|---|---|
-| 3.1 Abordagem de Desenvolvimento | [docs/3.1-abordagem-de-desenvolvimento.md](docs/3.1-abordagem-de-desenvolvimento.md) | ⬜ |
+| 3.1 Abordagem de Desenvolvimento | [docs/3.1-abordagem-de-desenvolvimento.md](docs/3.1-abordagem-de-desenvolvimento.md) | ✅ |
 | 3.2 Ferramentas e Tecnologias | [docs/3.2-ferramentas-e-tecnologias.md](docs/3.2-ferramentas-e-tecnologias.md) | ⬜ |
 | 3.3 Arquitetura do Sistema | [docs/3.3-arquitetura-do-sistema.md](docs/3.3-arquitetura-do-sistema.md) | ⬜ |
-| 4.1 Descrição do Projeto | [docs/4.1-descricao-do-projeto.md](docs/4.1-descricao-do-projeto.md) | ⬜ |
+| 4.1 Descrição do Projeto | [docs/4.1-descricao-do-projeto.md](docs/4.1-descricao-do-projeto.md) | ✅ |
 | 4.2 Análise do Sistema | [docs/4.2-analise-do-sistema.md](docs/4.2-analise-do-sistema.md) | ⬜ |
 | 4.2.1 Levantamento de Requisitos | [docs/4.2.1-levantamento-de-requisitos.md](docs/4.2.1-levantamento-de-requisitos.md) | ⬜ |
 | 4.2.2 Modelagem de Casos de Uso | [docs/4.2.2-casos-de-uso.md](docs/4.2.2-casos-de-uso.md) | ⬜ |
