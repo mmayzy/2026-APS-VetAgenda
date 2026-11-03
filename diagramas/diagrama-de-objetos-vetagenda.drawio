@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="ROUpXcYuhoWJ5NgIcpN6">
+    <mxGraphModel dx="2049" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;maya1: Veterinario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;nomeCompleto: &quot;Maya&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;crmv: &quot;CRMV-PR 12345&quot;&lt;br&gt;telefone: &quot;(42) 99999-0000&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;especialidade: &quot;Clínica Geral&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;email: &quot;maya@email.com&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="860" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-28" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BE-dcNzbrmWH-y15_Q5P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;consulta1: Consulta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data: &quot;15/11/2026&quot;&lt;br&gt;horario = &quot;09:00&quot;&lt;br&gt;status = &quot;Agendada&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="550" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-11" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" x="0.3647" as="geometry">
+            <mxPoint x="250" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;luna1: Animal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;nome: &quot;Luna&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;especie: &quot;Gato&quot;&lt;br&gt;raca: &quot;Persa&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="270" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-17" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BE-dcNzbrmWH-y15_Q5P-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-22" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BE-dcNzbrmWH-y15_Q5P-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;dart1: Animal&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;nome: &quot;Dart&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;especie: &quot;Roedor&quot;&lt;br&gt;raca: &quot;Gerbil&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="290" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-9" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BE-dcNzbrmWH-y15_Q5P-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="360" />
+              <mxPoint x="255" y="360" />
+              <mxPoint x="255" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ana1: Tutor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;nomeCompleto: &quot;Ana&quot;&lt;br&gt;telefone: &quot;(41) 99999-9999&quot;&lt;br&gt;cpf: &quot;999.999.999-99&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;email : &quot;ana@gmail.com&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-29" edge="1" parent="1" source="BE-dcNzbrmWH-y15_Q5P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BE-dcNzbrmWH-y15_Q5P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;consulta2: Consulta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data :&quot;18/11/2026&quot;&lt;br&gt;horario: &quot;10:00&quot;&lt;br&gt;status: &quot;Agendada&quot;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="510" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="possui" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="possui" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="possui" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="com" vertex="1">
+          <mxGeometry height="30" width="60" x="800" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BE-dcNzbrmWH-y15_Q5P-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="com" vertex="1">
+          <mxGeometry height="30" width="60" x="770" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
