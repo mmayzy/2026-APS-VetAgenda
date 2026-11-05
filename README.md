@@ -1,11 +1,13 @@
-# VetAgenda: O VetAgenda é um sistema de gerenciamento de consultas veterinárias que centraliza os cadastros de tutores, animais e veterinários, permitindo que a secretária organize os agendamentos e que os veterinários consultem seus horários, reduzindo conflitos e dificuldades na organização da agenda.
+# VetAgenda: sistema de gerenciamento de consultas veterinárias
 
-Projeto Integrador de Análise e Projeto de Sistemas, 2026.
+Projeto Integrador de Análise e Projeto de Sistemas, 2026.  
 IFPR, Centro de Referência Ponta Grossa. Técnico em Informática Integrado ao Ensino Médio.
 
 **Autoria:** Mayara Mierzva
 
-**Cliente:** Clarice, secretária da clínica veterinária, que realiza os agendamentos. (FICTÍCIA)
+**Cliente fictícia:** Clarice, secretária da clínica veterinária, responsável pela organização dos agendamentos.
+
+**Uso de inteligência artificial:** O ChatGPT foi utilizado como apoio na revisão da escrita, organização da documentação e esclarecimento de conceitos de análise e modelagem. As decisões e a revisão final do projeto foram realizadas pela autora.
 
 ## Apresentação do projeto
 
