@@ -1,0 +1,55 @@
+
+flowchart TD
+
+    subgraph SECRETARIA["SECRETÁRIA"]
+        direction TB
+        INICIO(["Início"])
+        INFORMAR["Informar animal, veterinário, data e horário"]
+        COMPLETAR["Completar informações solicitadas"]
+    end
+
+    subgraph SISTEMA["SISTEMA"]
+        direction TB
+        VALIDAR["Verificar dados obrigatórios e validade"]
+        DADOS{"Dados completos e válidos?"}
+        IDENTIFICAR["Identificar dados obrigatórios ausentes"]
+        AVISAR_DADOS["Informar quais dados precisam ser preenchidos"]
+        REVALIDAR["Verificar novamente os dados informados"]
+        DISPONIBILIDADE["Verificar disponibilidade do veterinário"]
+        CONFLITO{"Horário disponível?"}
+        AVISAR_DISP["Informar que o horário está disponível"]
+        REGISTRAR["Registrar consulta na agenda"]
+        CONFIRMAR["Confirmar agendamento"]
+        IDENTIFICAR_CONFLITO["Identificar conflito de horário"]
+        AVISAR_CONFLITO["Informar impossibilidade de agendamento"]
+        NAO_REGISTRAR["Encerrar sem registrar a consulta"]
+        FIM_SUCESSO(["Fim: consulta agendada"])
+        FIM_ERRO(["Fim: agendamento não realizado"])
+    end
+
+    INICIO --> INFORMAR
+    INFORMAR --> VALIDAR
+    VALIDAR --> DADOS
+
+    DADOS -- "Sim" --> DISPONIBILIDADE
+    DADOS -- "Não" --> IDENTIFICAR
+    IDENTIFICAR --> AVISAR_DADOS
+    AVISAR_DADOS --> COMPLETAR
+    COMPLETAR --> REVALIDAR
+    REVALIDAR --> DISPONIBILIDADE
+
+    DISPONIBILIDADE --> CONFLITO
+    CONFLITO -- "Sim" --> AVISAR_DISP
+    AVISAR_DISP --> REGISTRAR
+    REGISTRAR --> CONFIRMAR
+    CONFIRMAR --> FIM_SUCESSO
+
+    CONFLITO -- "Não" --> IDENTIFICAR_CONFLITO
+    IDENTIFICAR_CONFLITO --> AVISAR_CONFLITO
+    AVISAR_CONFLITO --> NAO_REGISTRAR
+    NAO_REGISTRAR --> FIM_ERRO
+
+    classDef inicioFim fill:#f8dce9,stroke:#b45b82,color:#784158
+    classDef decisao fill:#fff0f6,stroke:#b45b82,color:#784158
+    class INICIO,FIM_SUCESSO,FIM_ERRO inicioFim
+    class DADOS,CONFLITO decisao
